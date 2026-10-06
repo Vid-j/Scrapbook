@@ -1,0 +1,71 @@
+{
+  "id": "matchbox_01",
+  "category": "matchbox",
+  "asset": "svg/matchbox_01.svg",
+  "asset_type": "svg_template",
+  "description": "Closed white matchbox seen from above with a dark brown speckled striker strip along the bottom edge and two lines of handwritten text.",
+  "style": {
+    "era": "vintage bar and diner matchbooks",
+    "palette": [
+      "#fbf8f2",
+      "#5e3a2e",
+      "#2a1f1a"
+    ],
+    "texture": "matte card, gritty striker",
+    "fonts": [
+      "Caveat"
+    ]
+  },
+  "slots": [
+    {
+      "name": "line_1",
+      "role": "phrase_part_1",
+      "max_chars": 22,
+      "case": "lower",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 200,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "line_2",
+      "role": "phrase_part_2",
+      "max_chars": 22,
+      "case": "lower",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 200,
+        "min_font_scale": 0.7
+      }
+    }
+  ],
+  "triggers": {
+    "moment_types": [
+      "date_outing",
+      "first_meeting",
+      "plan_made"
+    ],
+    "moods": [
+      "romantic",
+      "playful"
+    ]
+  },
+  "size": {
+    "w": 240,
+    "h": 92
+  },
+  "rotation_range": [
+    -7,
+    7
+  ],
+  "example_fills": [
+    {
+      "line_1": "a match made on",
+      "line_2": "a rainy tuesday"
+    }
+  ],
+  "regen_prompt": "Die-cut sticker of a closed blank white matchbox seen from above with a dark brown speckled striker strip on the bottom edge, transparent background, no text",
+  "license": "original",
+  "fill_rule": "LLM writes a 'match made on/at/over ___' phrase from the moment's weekday, weather, or place; it is a caption, so tag provenance as imagined"
+}

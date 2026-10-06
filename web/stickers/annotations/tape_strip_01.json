@@ -1,0 +1,25 @@
+{
+  "id": "tape_strip_01",
+  "category": "decor_tape",
+  "asset": "svg/tape_strip_01.svg",
+  "asset_type": "svg_decor",
+  "description": "Short piece of translucent beige washi tape with zigzag torn ends, used to pin other pieces to the page.",
+  "style": {
+    "era": "collage scrap",
+    "palette": ["#d6c4a0"],
+    "texture": "translucent washi tape",
+    "fonts": []
+  },
+  "slots": [],
+  "triggers": {
+    "moment_types": ["any"],
+    "moods": ["any"],
+    "role": "anchor_on_top_of_photo_or_note"
+  },
+  "size": { "w": 130, "h": 38 },
+  "rotation_range": [-10, 10],
+  "max_per_spread": 3,
+  "placement_rule": "Place across the top edge of a card, photo or stem so it looks taped down",
+  "regen_prompt": "Die-cut sticker of a short piece of translucent beige washi tape with zigzag ends, transparent background",
+  "license": "original"
+}

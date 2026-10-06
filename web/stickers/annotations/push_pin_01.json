@@ -1,0 +1,45 @@
+{
+  "id": "push_pin_01",
+  "category": "decor_push_pin",
+  "asset": "svg/push_pin_01.svg",
+  "asset_type": "svg_decor",
+  "description": "Glossy deep red push pin with a rounded head and short silver needle, seen at an angle.",
+  "style": {
+    "era": "corkboard",
+    "palette": [
+      "#8e1f1f",
+      "#9a9a9a"
+    ],
+    "texture": "glossy plastic",
+    "fonts": []
+  },
+  "slots": [],
+  "triggers": {
+    "moment_types": [
+      "any"
+    ],
+    "moods": [
+      "any"
+    ],
+    "role": "anchor_on_top_of_photo_or_note"
+  },
+  "size": {
+    "w": 70,
+    "h": 90
+  },
+  "rotation_range": [
+    -20,
+    20
+  ],
+  "max_per_spread": 2,
+  "placement_rule": "Place over the top edge of a polaroid, postcard or note so it looks pinned",
+  "regen_prompt": "Die-cut sticker of a glossy {color} push pin with a silver needle, transparent background, no text",
+  "regen_variables": {
+    "color": [
+      "deep red",
+      "cream",
+      "black"
+    ]
+  },
+  "license": "original"
+}

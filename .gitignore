@@ -1,0 +1,14 @@
+# Local data never leaves the machine or the repo
+/data/
+!/data/.gitkeep
+
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Python
+ml/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/

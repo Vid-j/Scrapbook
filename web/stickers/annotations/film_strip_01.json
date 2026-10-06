@@ -1,0 +1,84 @@
+{
+  "id": "film_strip_01",
+  "category": "film_strip",
+  "asset": "svg/film_strip_01.svg",
+  "asset_type": "svg_template",
+  "description": "Vertical strip of black 35mm film negative with sprocket holes down both sides, three stacked rectangular frames, and small amber edge printing.",
+  "style": {
+    "era": "35mm film",
+    "palette": [
+      "#1c1714",
+      "#c9a44a"
+    ],
+    "texture": "glossy film base",
+    "fonts": [
+      "Special Elite"
+    ]
+  },
+  "slots": [
+    {
+      "name": "frame_1",
+      "type": "image",
+      "role": "photo_sequence",
+      "source": "moment.photos[*] | message.attachments(photo)",
+      "aspect": "94:100"
+    },
+    {
+      "name": "frame_2",
+      "type": "image",
+      "role": "photo_sequence",
+      "source": "moment.photos[*] | message.attachments(photo)",
+      "aspect": "94:100"
+    },
+    {
+      "name": "frame_3",
+      "type": "image",
+      "role": "photo_sequence",
+      "source": "moment.photos[*] | message.attachments(photo)",
+      "aspect": "94:100"
+    },
+    {
+      "name": "edge_code",
+      "role": "date_code",
+      "source": "moment.date",
+      "format": "DDMMYY · {n} FRAMES",
+      "max_chars": 20,
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 110,
+        "min_font_scale": 0.7
+      }
+    }
+  ],
+  "triggers": {
+    "moment_types": [
+      "photo_burst",
+      "trip",
+      "date_outing"
+    ],
+    "requires": "2+ photos sent in the moment window",
+    "moods": [
+      "any"
+    ]
+  },
+  "size": {
+    "w": 150,
+    "h": 380
+  },
+  "rotation_range": [
+    -6,
+    6
+  ],
+  "example_fills": [
+    {
+      "frame_1": "<photo>",
+      "frame_2": "<photo>",
+      "frame_3": "<photo>",
+      "edge_code": "141025 · 3 FRAMES"
+    }
+  ],
+  "min_images": 2,
+  "empty_frame_fill": "dark_frame",
+  "regen_prompt": "Die-cut sticker of a vertical strip of black 35mm film with sprocket holes on both sides and three empty frames, transparent background, no text",
+  "license": "original"
+}

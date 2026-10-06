@@ -1,0 +1,48 @@
+{
+  "id": "pressed_poppies_01",
+  "category": "decor_pressed_flowers",
+  "asset": "svg/pressed_poppies_01.svg",
+  "asset_type": "svg_decor",
+  "description": "Two flat pressed red poppies with dark centers and thin olive stems, held down by a strip of beige tape across the stems.",
+  "style": {
+    "era": "botanical pressing",
+    "palette": [
+      "#7d1f24",
+      "#2a0a0c",
+      "#5f6e43"
+    ],
+    "texture": "dried flattened petals",
+    "fonts": []
+  },
+  "slots": [],
+  "triggers": {
+    "moment_types": [
+      "any"
+    ],
+    "moods": [
+      "romantic",
+      "tender",
+      "nostalgic"
+    ],
+    "role": "supporting_decor"
+  },
+  "size": {
+    "w": 200,
+    "h": 260
+  },
+  "rotation_range": [
+    -15,
+    15
+  ],
+  "max_per_spread": 1,
+  "regen_prompt": "Die-cut sticker of {flower} pressed flat and dried, with thin stems held down by a strip of beige tape, transparent background, no text",
+  "regen_variables": {
+    "flower": [
+      "two red poppies",
+      "a sprig of lavender",
+      "three small daisies",
+      "a single pink rose"
+    ]
+  },
+  "license": "original"
+}

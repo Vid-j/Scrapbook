@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="224" viewBox="0 0 180 224" data-sticker-id="ticket_stub_01">
+<style>@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;family=Special+Elite&amp;family=Alfa+Slab+One&amp;display=swap');</style>
+<defs>
+<filter id="ticket_stub_01-shadow" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#3c2814" flood-opacity="0.28"/></filter>
+
+</defs>
+<g filter="url(#ticket_stub_01-shadow)"><path d="M0 0 H180 V103.04 A10 10 0 0 0 180 120.96000000000001 V224 H0 V120.96000000000001 A10 10 0 0 0 0 103.04 Z" fill="#e4d3ae"/></g>
+<rect x="12" y="12" width="156" height="200" fill="none" stroke="#2a1f1a" stroke-width="1.5"/>
+<line x1="12" y1="56" x2="168" y2="56" stroke="#2a1f1a" stroke-width="1.5"/>
+<text id="slot-number" data-slot="number" data-max-chars="9" x="22" y="44" text-anchor="start" font-family="'Special Elite', 'Courier New', monospace" font-size="26" fill="#2a1f1a" >No 141025</text>
+<text id="slot-admit" data-slot="admit" data-max-chars="14" x="22" y="84" text-anchor="start" font-family="'Special Elite', 'Courier New', monospace" font-size="12" fill="#2a1f1a" letter-spacing="2">ADMIT TWO</text>
+<text id="slot-place" data-slot="place" data-max-chars="12" x="22" y="130" text-anchor="start" font-family="'Special Elite', 'Courier New', monospace" font-size="18" fill="#8e1f1f" >CAFÉ LUMEN</text>
+<text id="slot-detail_1" data-slot="detail_1" data-max-chars="20" x="22" y="178" text-anchor="start" font-family="'Special Elite', 'Courier New', monospace" font-size="11" fill="#2a1f1a" >2 LAVENDER LATTES</text>
+<text id="slot-detail_2" data-slot="detail_2" data-max-chars="20" x="22" y="196" text-anchor="start" font-family="'Special Elite', 'Courier New', monospace" font-size="11" fill="#2a1f1a" >TUES · RAIN</text>
+</svg>

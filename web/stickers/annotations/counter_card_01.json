@@ -1,0 +1,135 @@
+{
+  "id": "counter_card_01",
+  "category": "time_counter_card",
+  "asset": "svg/counter_card_01.svg",
+  "asset_type": "svg_template",
+  "description": "Lined white index card with a strip of beige tape at the top, a small typewriter header, five centered handwritten lines counting time in years, months, days, hours and minutes, and a quoted first message at the bottom.",
+  "style": {
+    "era": "handmade journal",
+    "palette": [
+      "#fbf8f2",
+      "#2a1f1a",
+      "#5a4636"
+    ],
+    "texture": "lined index card, masking tape",
+    "fonts": [
+      "Caveat",
+      "Special Elite"
+    ]
+  },
+  "slots": [
+    {
+      "name": "header",
+      "role": "label",
+      "default": "SINCE YOUR FIRST TEXT",
+      "max_chars": 24,
+      "case": "upper",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 180,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "years",
+      "role": "computed_years",
+      "source": "book.start_date",
+      "format": "{n} YEAR(S)",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 180,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "months",
+      "role": "computed_months",
+      "source": "book.start_date",
+      "format": "{n} MONTHS",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 180,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "days",
+      "role": "computed_days",
+      "source": "book.start_date",
+      "format": "{n} DAYS",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 180,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "hours",
+      "role": "computed_hours",
+      "source": "book.start_date",
+      "format": "{n} HOURS",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 180,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "minutes",
+      "role": "computed_minutes",
+      "source": "book.start_date",
+      "format": "{n} MINUTES",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 180,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "first_line",
+      "role": "first_message_quote",
+      "source": "book.first_message",
+      "max_chars": 28,
+      "wrap": "none",
+      "quote": true,
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 180,
+        "min_font_scale": 0.7
+      }
+    }
+  ],
+  "triggers": {
+    "moment_types": [
+      "first_message",
+      "anniversary",
+      "book_cover"
+    ],
+    "moods": [
+      "tender",
+      "nostalgic"
+    ]
+  },
+  "size": {
+    "w": 220,
+    "h": 320
+  },
+  "rotation_range": [
+    -4,
+    4
+  ],
+  "example_fills": [
+    {
+      "header": "SINCE YOUR FIRST TEXT",
+      "years": "1 YEAR",
+      "months": "19 MONTHS",
+      "days": "582 DAYS",
+      "hours": "13,968 HOURS",
+      "minutes": "838,080 MINUTES",
+      "first_line": "\"hi, is this sam?\""
+    }
+  ],
+  "regen_prompt": "Die-cut sticker of a blank white lined index card with a piece of beige masking tape across the top edge, soft paper shadow, slightly worn edges, transparent background, no text",
+  "license": "original",
+  "live": true
+}

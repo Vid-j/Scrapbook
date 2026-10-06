@@ -1,0 +1,42 @@
+{
+  "id": "bg_floral_cream_01",
+  "category": "background_torn_paper",
+  "asset": "svg/bg_floral_cream_01.svg",
+  "asset_type": "svg_background",
+  "description": "Hand-torn scrap of cream wallpaper with a small repeating print of dusty pink and sage five-petal flowers.",
+  "style": {
+    "era": "collage scrap",
+    "palette": [
+      "#efe2c8",
+      "#c98a8a",
+      "#9fb08a"
+    ],
+    "texture": "vintage wallpaper print",
+    "fonts": []
+  },
+  "slots": [],
+  "triggers": {
+    "moods": [
+      "tender",
+      "spring",
+      "romantic"
+    ],
+    "role": "page_background_layer",
+    "chapter_palette_match": true
+  },
+  "size": {
+    "w": 300,
+    "h": 340
+  },
+  "rotation_range": [
+    -6,
+    6
+  ],
+  "layer": "background",
+  "scale_range": [
+    0.8,
+    1.8
+  ],
+  "regen_prompt": "Torn scrap of cream ditsy floral wallpaper paper with rough hand-torn edges on all sides, flat lay, transparent background, no text",
+  "license": "original"
+}

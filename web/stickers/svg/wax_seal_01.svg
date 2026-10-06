@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 112 112" data-sticker-id="wax_seal_01">
+<style>@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;family=Special+Elite&amp;family=Alfa+Slab+One&amp;display=swap');</style>
+<defs>
+<filter id="wax_seal_01-shadow" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#3c2814" flood-opacity="0.28"/></filter>
+<radialGradient id="wax_seal_01-wax" cx="38%" cy="34%" r="70%"><stop offset="0" stop-color="#b8403e"/><stop offset="0.55" stop-color="#8e1f1f"/><stop offset="1" stop-color="#4e0f10"/></radialGradient>
+</defs>
+<g filter="url(#wax_seal_01-shadow)"><polygon points="104.4,56.0 104.6,69.0 98.6,80.6 91.8,91.8 81.4,100.0 68.3,101.8 56.0,103.1 42.5,106.3 31.7,98.1 21.8,90.2 10.1,82.5 7.9,68.9 4.0,56.0 7.8,43.1 12.0,30.6 22.1,22.1 30.6,12.0 42.5,5.6 56.0,5.9 69.3,6.3 81.5,11.8 89.5,22.5 100.6,30.2 104.8,42.9" fill="url(#wax_seal_01-wax)" stroke="url(#wax_seal_01-wax)" stroke-width="6" stroke-linejoin="round"/></g>
+<circle cx="56" cy="56" r="33" fill="none" stroke="#3a0a0b" stroke-opacity="0.45" stroke-width="2.5"/>
+<circle cx="56" cy="56" r="28" fill="none" stroke="#ffb4aa" stroke-opacity="0.18" stroke-width="1"/>
+<text id="slot-initials" data-slot="initials" data-max-chars="4" x="56" y="64" text-anchor="middle" font-family="'Alfa Slab One', Rockwell, serif" font-size="21" fill="#561113" >S&amp;R</text>
+</svg>

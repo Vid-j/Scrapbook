@@ -1,0 +1,114 @@
+{
+  "_note": "Fictional couple for development and tests. Sam is 'me' (right-side bubbles), Rio is 'them'.",
+  "book": {
+    "id": "book_sam_rio",
+    "title": "Sam & Rio",
+    "start_date": "2025-03-02T21:14:00",
+    "consent_mode": "full",
+    "partner_consent": true
+  },
+  "participants": [
+    { "id": "p_sam", "display_name": "Sam", "side": "me", "initials": "S" },
+    { "id": "p_rio", "display_name": "Rio", "side": "them", "initials": "R" }
+  ],
+  "messages": [
+    { "id": "m001", "from": "p_rio", "at": "2025-03-02T21:14:00", "text": "hi, is this sam?" },
+    { "id": "m002", "from": "p_sam", "at": "2025-03-02T21:16:00", "text": "it is! is this rio from the bookshop line?" },
+    { "id": "m003", "from": "p_rio", "at": "2025-03-02T21:16:00", "text": "the one who dropped every single book, yes" },
+    { "id": "m004", "from": "p_sam", "at": "2025-03-02T21:18:00", "text": "you caught the last one though. very heroic" },
+    { "id": "m005", "from": "p_rio", "at": "2025-03-02T21:20:00", "text": "coffee sometime? as thanks for not laughing" },
+    { "id": "m006", "from": "p_sam", "at": "2025-03-02T21:21:00", "text": "i absolutely laughed. but yes", "reactions": ["😂"] },
+
+    { "id": "m007", "from": "p_sam", "at": "2025-03-08T10:02:00", "text": "running 5 min late, the bus is crawling" },
+    { "id": "m008", "from": "p_rio", "at": "2025-03-08T10:03:00", "text": "no rush, i got us the window seat" },
+    { "id": "m009", "from": "p_rio", "at": "2025-03-08T13:40:00", "text": "that was really nice. same time next week?" },
+    { "id": "m010", "from": "p_sam", "at": "2025-03-08T13:42:00", "text": "same time next week", "reactions": ["❤️"] },
+
+    { "id": "m011", "from": "p_rio", "at": "2025-04-12T16:05:00", "text": "found a café that does lavender lattes. is that a crime" },
+    { "id": "m012", "from": "p_sam", "at": "2025-04-12T16:07:00", "text": "only if you don't take me. i would die for a lavender latte" },
+    { "id": "m013", "from": "p_rio", "at": "2025-04-12T16:08:00", "text": "café lumen. on fourth street. noted" },
+
+    { "id": "m014", "from": "p_sam", "at": "2025-05-03T19:30:00", "text": "my mom asked who keeps making me smile at my phone" },
+    { "id": "m015", "from": "p_rio", "at": "2025-05-03T19:31:00", "text": "tell her it's the clumsy one from the bookshop" },
+    { "id": "m016", "from": "p_rio", "at": "2025-05-24T22:12:00", "text": "i think you're my favorite person to text" },
+    { "id": "m017", "from": "p_sam", "at": "2025-05-24T22:15:00", "text": "good because i've been drafting this one for an hour" },
+
+    { "id": "m018", "from": "p_sam", "at": "2025-06-21T23:48:00", "text": "can i say something" },
+    { "id": "m019", "from": "p_rio", "at": "2025-06-21T23:48:00", "text": "always" },
+    { "id": "m020", "from": "p_sam", "at": "2025-06-21T23:50:00", "text": "i love you. that's it. that's the text" },
+    { "id": "m021", "from": "p_rio", "at": "2025-06-21T23:51:00", "text": "i love you too. i was waiting for you to go first", "reactions": ["❤️"] },
+    { "id": "m022", "from": "p_rio", "at": "2025-06-22T00:03:00", "text": "it's midnight and i'm grinning at the ceiling" },
+
+    { "id": "m023", "from": "p_rio", "at": "2025-07-09T23:10:00", "text": "goodnight bean" },
+    { "id": "m024", "from": "p_sam", "at": "2025-07-09T23:11:00", "text": "bean??" },
+    { "id": "m025", "from": "p_rio", "at": "2025-07-09T23:11:00", "text": "you're small and you're a lot. bean" },
+    { "id": "m026", "from": "p_sam", "at": "2025-07-09T23:12:00", "text": "i accept", "reactions": ["😂"] },
+    { "id": "m027", "from": "p_sam", "at": "2025-07-30T20:45:00", "text": "bean reporting: i made the pasta and it's edible" },
+    { "id": "m028", "from": "p_rio", "at": "2025-07-30T20:46:00", "text": "proud of you bean" },
+
+    { "id": "m029", "from": "p_rio", "at": "2025-08-16T09:15:00", "text": "beach saturday? forecast says sun" },
+    { "id": "m030", "from": "p_sam", "at": "2025-08-16T09:16:00", "text": "packing snacks already" },
+    { "id": "m031", "from": "p_sam", "at": "2025-08-17T21:30:00", "text": "i'm still sandy. worth it" },
+
+    { "id": "m032", "from": "p_rio", "at": "2025-09-28T18:00:00", "text": "ok. tuesday oct 14. picnic at the lake. i'm planning everything" },
+    { "id": "m033", "from": "p_sam", "at": "2025-09-28T18:02:00", "text": "you're planning?? who are you" },
+    { "id": "m034", "from": "p_rio", "at": "2025-09-28T18:02:00", "text": "someone with a basket and a dream" },
+
+    { "id": "m035", "from": "p_rio", "at": "2025-10-14T07:41:00", "text": "have you looked outside" },
+    { "id": "m036", "from": "p_sam", "at": "2025-10-14T07:43:00", "text": "it's biblical out there" },
+    { "id": "m037", "from": "p_rio", "at": "2025-10-14T07:44:00", "text": "picnic is cancelled. the lake is now part of the sky" },
+    { "id": "m038", "from": "p_sam", "at": "2025-10-14T07:46:00", "text": "rain check?" },
+    { "id": "m039", "from": "p_rio", "at": "2025-10-14T07:46:00", "text": "rain check. literally" },
+    { "id": "m040", "from": "p_rio", "at": "2025-10-14T07:52:00", "text": "counteroffer: café lumen at 3. two lavender lattes. i'll bring an umbrella" },
+    { "id": "m041", "from": "p_sam", "at": "2025-10-14T07:53:00", "text": "you remembered!!", "reactions": ["❤️"] },
+    { "id": "m042", "from": "p_sam", "at": "2025-10-14T07:53:00", "text": "i mentioned that once in april" },
+    { "id": "m043", "from": "p_rio", "at": "2025-10-14T07:55:00", "text": "i remember everything you say. it's a problem" },
+    { "id": "m044", "from": "p_rio", "at": "2025-10-14T14:51:00", "text": "outside. bad news about the umbrella" },
+    { "id": "m045", "from": "p_sam", "at": "2025-10-14T14:51:00", "text": "what's wrong with it" },
+    { "id": "m046", "from": "p_rio", "at": "2025-10-14T14:52:00", "text": "it's a tiny umbrella. the tiny umbrella fits one (1) person" },
+    { "id": "m047", "from": "p_sam", "at": "2025-10-14T14:52:00", "text": "then we share it badly", "reactions": ["😂"] },
+    { "id": "m048", "from": "p_sam", "at": "2025-10-14T18:20:00", "text": "my left side is soaked and i'd do it again" },
+    { "id": "m049", "from": "p_rio", "at": "2025-10-14T18:22:00", "text": "2 lavender lattes, 1 tiny umbrella, 0 regrets", "reactions": ["❤️", "😂"] },
+    { "id": "m050", "from": "p_sam", "at": "2025-10-14T22:10:00", "text": "best rain check ever" },
+    { "id": "m051", "from": "p_sam", "at": "2025-10-14T22:11:00", "text": "goodnight my love. a match made on a rainy tuesday" },
+
+    { "id": "m052", "from": "p_sam", "at": "2025-11-02T11:20:00", "text": "it's drizzling, bringing the tiny umbrella" },
+    { "id": "m053", "from": "p_rio", "at": "2025-11-02T11:21:00", "text": "so i'm getting wet again. cool cool" },
+    { "id": "m054", "from": "p_rio", "at": "2025-11-29T20:05:00", "text": "saw a tiny umbrella in a cocktail and thought of you" },
+    { "id": "m055", "from": "p_sam", "at": "2025-11-29T20:06:00", "text": "is it bigger than ours" },
+    { "id": "m056", "from": "p_rio", "at": "2025-11-29T20:06:00", "text": "honestly yes", "reactions": ["😂"] },
+
+    { "id": "m057", "from": "p_sam", "at": "2025-12-24T09:30:00", "text": "merry christmas! open the long box first" },
+    { "id": "m058", "from": "p_rio", "at": "2025-12-24T09:41:00", "text": "SAM. A FULL SIZE UMBRELLA" },
+    { "id": "m059", "from": "p_rio", "at": "2025-12-24T09:42:00", "text": "i'm keeping the tiny umbrella though. it's tradition", "reactions": ["❤️"] },
+
+    { "id": "m060", "from": "p_rio", "at": "2026-01-18T08:10:00", "text": "snow day. no umbrella required" },
+    { "id": "m061", "from": "p_sam", "at": "2026-01-18T08:14:00", "text": "building a very small snowman in solidarity with the tiny umbrella" },
+
+    { "id": "m062", "from": "p_sam", "at": "2026-02-14T12:00:00", "text": "dinner at 7? i booked the place with the candles" },
+    { "id": "m063", "from": "p_rio", "at": "2026-02-14T12:03:00", "text": "i'll wear the red sweater" },
+
+    { "id": "m064", "from": "p_rio", "at": "2026-03-02T09:00:00", "text": "one year since 'hi, is this sam?'" },
+    { "id": "m065", "from": "p_sam", "at": "2026-03-02T09:02:00", "text": "best text anyone ever sent me" },
+    { "id": "m066", "from": "p_rio", "at": "2026-03-02T09:03:00", "text": "i rewrote it eleven times" },
+    { "id": "m067", "from": "p_sam", "at": "2026-03-02T09:03:00", "text": "happy one year", "reactions": ["❤️"] },
+
+    { "id": "m068", "from": "p_sam", "at": "2026-04-11T15:10:00", "text": "apartment tour at 4. bring the tiny umbrella for luck" },
+    { "id": "m069", "from": "p_rio", "at": "2026-04-11T15:12:00", "text": "the tiny umbrella has never brought luck. only dampness" },
+    { "id": "m070", "from": "p_rio", "at": "2026-04-30T17:45:00", "text": "we got it!!! the one with the window" },
+    { "id": "m071", "from": "p_sam", "at": "2026-04-30T17:45:00", "text": "WE GOT IT", "reactions": ["❤️"] },
+
+    { "id": "m072", "from": "p_sam", "at": "2026-06-07T10:30:00", "text": "moving day. why do we own 400 books" },
+    { "id": "m073", "from": "p_rio", "at": "2026-06-07T10:32:00", "text": "i dropped them all once. now we carry them for my sins" },
+
+    { "id": "m074", "from": "p_rio", "at": "2026-08-09T00:40:00", "text": "late night thought: i like our life" },
+    { "id": "m075", "from": "p_sam", "at": "2026-08-09T00:42:00", "text": "me too. go to sleep" },
+
+    { "id": "m076", "from": "p_sam", "at": "2026-09-19T14:00:00", "text": "found the tiny umbrella in the moving box marked misc" },
+    { "id": "m077", "from": "p_rio", "at": "2026-09-19T14:03:00", "text": "misc?? it's a family heirloom" },
+
+    { "id": "m078", "from": "p_rio", "at": "2026-10-03T19:20:00", "text": "it's supposed to rain on the 14th. lumen?" },
+    { "id": "m079", "from": "p_sam", "at": "2026-10-03T19:22:00", "text": "lumen. 2 lavender lattes. one tiny umbrella" },
+    { "id": "m080", "from": "p_rio", "at": "2026-10-03T19:23:00", "text": "a year of sharing it badly", "reactions": ["❤️"] }
+  ]
+}

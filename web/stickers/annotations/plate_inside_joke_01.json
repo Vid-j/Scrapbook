@@ -1,0 +1,112 @@
+{
+  "id": "plate_inside_joke_01",
+  "category": "license_plate",
+  "asset": "svg/plate_inside_joke_01.svg",
+  "asset_type": "svg_template",
+  "description": "Vintage cream metal license plate with a deep red embossed border, two bolt holes, split year digits in the top corners, and large slab-serif text in the center with small typewriter lines above and below.",
+  "style": {
+    "era": "mid-century americana",
+    "palette": [
+      "#efe6d6",
+      "#8e1f1f",
+      "#4a3a2c"
+    ],
+    "texture": "embossed metal, light wear",
+    "fonts": [
+      "Alfa Slab One",
+      "Special Elite"
+    ]
+  },
+  "slots": [
+    {
+      "name": "main",
+      "role": "motif_phrase",
+      "source": "motif.phrase",
+      "max_chars": 14,
+      "case": "upper",
+      "note": "The emboss highlight text must mirror this slot",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 260,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "top",
+      "role": "date_since",
+      "source": "motif.first_message.sent_at",
+      "format": "SINCE MMM D",
+      "max_chars": 16,
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 260,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "bottom",
+      "role": "label",
+      "default": "INSIDE JOKE No. {n}",
+      "max_chars": 20,
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 260,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "corner_left",
+      "role": "year_first_half",
+      "source": "motif.first_message.sent_at",
+      "format": "YY(first)",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 260,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "corner_right",
+      "role": "year_second_half",
+      "source": "motif.first_message.sent_at",
+      "format": "YY(last)",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 260,
+        "min_font_scale": 0.7
+      }
+    }
+  ],
+  "triggers": {
+    "moment_types": [
+      "motif_first_appearance"
+    ],
+    "motif_kinds": [
+      "inside_joke",
+      "nickname"
+    ],
+    "moods": [
+      "playful",
+      "nostalgic"
+    ]
+  },
+  "size": {
+    "w": 300,
+    "h": 150
+  },
+  "rotation_range": [
+    -6,
+    6
+  ],
+  "example_fills": [
+    {
+      "main": "TINY UMBRELLA",
+      "top": "SINCE OCT 14",
+      "bottom": "INSIDE JOKE No. 1",
+      "corner_left": "20",
+      "corner_right": "25"
+    }
+  ],
+  "regen_prompt": "Die-cut sticker of a blank vintage cream metal license plate with a deep red embossed border and two bolt holes, light wear, soft shadow, transparent background, no text",
+  "license": "original"
+}

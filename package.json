@@ -1,0 +1,18 @@
+{
+  "name": "text-scrapbook",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local-first app that turns screenshots of a couple's texts into a vintage digital scrapbook.",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "dev": "concurrently -k -n web,ml -c red,yellow \"npm --prefix web run dev\" \"node scripts/run-ml.mjs\"",
+    "dev:web": "npm --prefix web run dev",
+    "dev:ml": "node scripts/run-ml.mjs",
+    "seed": "npm --prefix web run seed",
+    "stickers:import": "node scripts/import-stickers.mjs",
+    "test": "npm --prefix web test"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}

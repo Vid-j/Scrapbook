@@ -1,0 +1,43 @@
+{
+  "id": "title_card_01",
+  "category": "title_card",
+  "asset": "svg/title_card_01.svg",
+  "asset_type": "svg_template",
+  "description": "Torn-edge cream paper label for a chapter opening: a small typed red chapter number above a large bold handwritten chapter title.",
+  "style": {
+    "era": "collage scrap",
+    "palette": ["#f4ecdc", "#8e1f1f", "#2a1f1a"],
+    "texture": "torn cream paper",
+    "fonts": ["Special Elite", "Caveat"]
+  },
+  "slots": [
+    {
+      "name": "kicker",
+      "role": "chapter_number",
+      "source": "chapter.order",
+      "format": "CHAPTER {nn}",
+      "max_chars": 12,
+      "case": "upper",
+      "fit": { "mode": "shrink_to_width", "max_width": 280, "min_font_scale": 0.7 }
+    },
+    {
+      "name": "title",
+      "role": "chapter_title",
+      "source": "chapter.title",
+      "max_chars": 22,
+      "fit": { "mode": "shrink_to_width", "max_width": 285, "min_font_scale": 0.6 }
+    }
+  ],
+  "triggers": {
+    "moment_types": ["chapter_start"],
+    "moods": ["any"],
+    "role": "chapter_opener"
+  },
+  "size": { "w": 320, "h": 104 },
+  "rotation_range": [-4, 2],
+  "max_per_spread": 1,
+  "example_fills": [{ "kicker": "CHAPTER 03", "title": "The Rain Check" }],
+  "fill_rule": "Chapter titles are written by the narrative stage, so tag provenance as imagined.",
+  "regen_prompt": "Die-cut sticker of a torn-edge cream paper label, blank, soft paper shadow, transparent background, no text",
+  "license": "original"
+}

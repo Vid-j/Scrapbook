@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Text Scrapbook palette: vintage ephemera, always on paper (no dark mode). */
+:root {
+  --oxblood: #8e1f1f;
+  --cream: #f1e7d3;
+  --kraft: #b8895a;
+  --ink: #2b2420;
+  --desk: #ece4da;
+}
+
+@theme inline {
+  --color-oxblood: var(--oxblood);
+  --color-cream: var(--cream);
+  --color-kraft: var(--kraft);
+  --color-ink: var(--ink);
+  --color-desk: var(--desk);
+  --font-hand: var(--font-caveat);
+  --font-typewriter: var(--font-special-elite);
+  --font-slab: var(--font-alfa-slab);
+}
+
+body {
+  background: var(--desk);
+  color: var(--ink);
+  font-family: var(--font-special-elite), ui-monospace, monospace;
+}

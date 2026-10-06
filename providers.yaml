@@ -1,0 +1,38 @@
+# Chooses which provider backs each model role. Every model sits behind a
+# provider interface (ml/app/providers), so swapping here never touches the
+# pipeline. Cloud providers are opt-in: nothing leaves the machine unless the
+# active preset names one.
+
+preset: local
+
+presets:
+  local:
+    parser: paddleocr
+    llm: ollama
+    embedder: sentence_transformers
+    imagegen: placeholder
+  cloud:
+    parser: claude_vision
+    llm: claude
+    embedder: sentence_transformers
+    imagegen: placeholder
+
+# Per-role overrides applied on top of the preset, e.g. `llm: claude`.
+overrides: {}
+
+providers:
+  claude_vision:
+    model: claude-sonnet-5-5
+  claude:
+    model: claude-sonnet-5-5
+  paddleocr:
+    lang: en
+  ollama:
+    base_url: http://localhost:11434
+    model: llama3.1
+  sentence_transformers:
+    model: all-MiniLM-L6-v2
+  comfyui:
+    base_url: http://localhost:8188
+    checkpoint: sdxl
+  placeholder: {}
