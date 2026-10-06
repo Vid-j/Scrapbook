@@ -1,0 +1,59 @@
+{
+  "id": "wax_seal_01",
+  "category": "wax_seal",
+  "asset": "svg/wax_seal_01.svg",
+  "asset_type": "svg_template",
+  "description": "Round deep red wax seal with an irregular melted edge, glossy highlight at the upper left, a pressed inner ring, and embossed initials in the center.",
+  "style": {
+    "era": "old correspondence",
+    "palette": [
+      "#8e1f1f",
+      "#4e0f10",
+      "#b8403e"
+    ],
+    "texture": "glossy melted wax",
+    "fonts": [
+      "Alfa Slab One"
+    ]
+  },
+  "slots": [
+    {
+      "name": "initials",
+      "role": "participant_initials",
+      "source": "book.participants[*].initials",
+      "format": "A&B",
+      "max_chars": 4,
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 72,
+        "min_font_scale": 0.7
+      }
+    }
+  ],
+  "triggers": {
+    "moment_types": [
+      "chapter_end",
+      "anniversary",
+      "book_cover"
+    ],
+    "moods": [
+      "romantic",
+      "tender"
+    ]
+  },
+  "size": {
+    "w": 112,
+    "h": 112
+  },
+  "rotation_range": [
+    -15,
+    15
+  ],
+  "example_fills": [
+    {
+      "initials": "S&R"
+    }
+  ],
+  "regen_prompt": "Die-cut sticker of a round deep red wax seal with an irregular melted edge, glossy highlight, and a smooth blank pressed center, transparent background, no text or letters",
+  "license": "original"
+}

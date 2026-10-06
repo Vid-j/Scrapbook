@@ -1,0 +1,155 @@
+// Text Scrapbook data model (PLAN.md, "Data model").
+// SQLite has no native enums or arrays here, so enum-like fields are strings
+// validated with Zod in src/lib/schemas, and list/object fields hold JSON text.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  // Relative to this file: <repo>/data/scrapbook.db
+  url      = "file:../../data/scrapbook.db"
+}
+
+model Book {
+  id             String        @id @default(cuid())
+  title          String
+  startDate      DateTime?
+  consentMode    String        @default("full") // full | my_messages_only
+  partnerConsent Boolean       @default(false)
+  excludedRanges String        @default("[]") // JSON [{from, to}]
+  archived       Boolean       @default(false)
+  createdAt      DateTime      @default(now())
+  participants   Participant[]
+  screenshots    Screenshot[]
+  messages       Message[]
+  motifs         Motif[]
+  moments        Moment[]
+  chapters       Chapter[]
+}
+
+model Participant {
+  id          String    @id @default(cuid())
+  bookId      String
+  book        Book      @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  displayName String
+  side        String // me | them
+  initials    String
+  messages    Message[]
+}
+
+model Screenshot {
+  id         String    @id @default(cuid())
+  bookId     String
+  book       Book      @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  filePath   String
+  phash      String
+  sourceApp  String? // imessage | whatsapp | instagram
+  parsedAt   DateTime?
+  status     String    @default("uploaded") // uploaded | parsed | corrected | failed
+  messages   Message[]
+
+  @@unique([bookId, phash])
+}
+
+model Message {
+  id             String      @id @default(cuid())
+  bookId         String
+  book           Book        @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  screenshotId   String?
+  screenshot     Screenshot? @relation(fields: [screenshotId], references: [id], onDelete: SetNull)
+  senderId       String
+  sender         Participant @relation(fields: [senderId], references: [id], onDelete: Cascade)
+  text           String
+  sentAt         DateTime?
+  timeConfidence String      @default("exact") // exact | inferred | unknown
+  reactions      String      @default("[]") // JSON string[]
+  attachmentType String? // photo | video | link | sticker
+  hidden         Boolean     @default(false)
+  seq            Int // order within the book, stable across stitching
+
+  @@index([bookId, sentAt])
+}
+
+model Motif {
+  id             String  @id @default(cuid())
+  bookId         String
+  book           Book    @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  phrase         String
+  kind           String // inside_joke | nickname | place | food | object
+  firstMessageId String?
+  occurrenceIds  String  @default("[]") // JSON message ids
+}
+
+model Moment {
+  id              String   @id @default(cuid())
+  bookId          String
+  book            Book     @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  type            String
+  title           String
+  date            DateTime
+  summary         String
+  quoteMessageIds String   @default("[]") // JSON message ids
+  entities        String   @default("{}") // JSON
+  mood            String
+  status          String   @default("suggested") // suggested | confirmed | rejected
+  spreads         Spread[]
+}
+
+model Chapter {
+  id        String   @id @default(cuid())
+  bookId    String
+  book      Book     @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  order     Int
+  title     String
+  momentIds String   @default("[]") // JSON moment ids
+  palette   String   @default("[]") // JSON hex colors
+  spreads   Spread[]
+}
+
+model Spread {
+  id         String    @id @default(cuid())
+  chapterId  String
+  chapter    Chapter   @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  momentId   String?
+  moment     Moment?   @relation(fields: [momentId], references: [id], onDelete: SetNull)
+  mode       String    @default("recreate") // recreate | reimagine
+  background String    @default("{}") // JSON
+  elements   Element[]
+  updatedAt  DateTime  @updatedAt
+}
+
+model Element {
+  id                String           @id @default(cuid())
+  spreadId          String
+  spread            Spread           @relation(fields: [spreadId], references: [id], onDelete: Cascade)
+  kind              String // sticker | image | text | provenance_tag
+  x                 Float
+  y                 Float
+  w                 Float
+  h                 Float
+  rotation          Float            @default(0)
+  z                 Int              @default(0)
+  stickerInstanceId String?          @unique
+  stickerInstance   StickerInstance? @relation(fields: [stickerInstanceId], references: [id], onDelete: SetNull)
+  props             String           @default("{}") // JSON kind-specific props
+  provenance        String // text | imagined
+  sourceMessageIds  String           @default("[]") // JSON message ids
+}
+
+model StickerTemplate {
+  id         String            @id // matches annotation id, e.g. plate_inside_joke_01
+  category   String
+  annotation String // full annotation JSON, validated by Zod
+  instances  StickerInstance[]
+}
+
+model StickerInstance {
+  id          String          @id @default(cuid())
+  templateId  String
+  template    StickerTemplate @relation(fields: [templateId], references: [id], onDelete: Cascade)
+  slotValues  String          @default("{}") // JSON {slot: value}
+  renderCache String? // path to a cached PNG in ./data
+  element     Element?
+}

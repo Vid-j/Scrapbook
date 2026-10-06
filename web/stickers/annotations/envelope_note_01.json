@@ -1,0 +1,92 @@
+{
+  "id": "envelope_note_01",
+  "category": "envelope_note",
+  "asset": "svg/envelope_note_01.svg",
+  "asset_type": "svg_template",
+  "description": "White paper envelope seen from the back with faint fold lines, a tilted yellow note card tucked at the upper right with two handwritten lines, and a handwritten to/from line at the lower left.",
+  "style": {
+    "era": "love letters",
+    "palette": [
+      "#fbf8f2",
+      "#e8cf98",
+      "#3a2a1e"
+    ],
+    "texture": "smooth envelope paper, card stock note",
+    "fonts": [
+      "Caveat"
+    ]
+  },
+  "slots": [
+    {
+      "name": "note_line_1",
+      "role": "pet_name_or_greeting",
+      "source": "motif(kind=nickname).phrase | 'MY LOVE'",
+      "max_chars": 12,
+      "case": "upper",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 260,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "note_line_2",
+      "role": "date_long",
+      "source": "moment.date",
+      "format": "MMM D, YYYY",
+      "max_chars": 14,
+      "case": "upper",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 260,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "address",
+      "role": "participants_to_from",
+      "source": "book.participants",
+      "format": "to: {them}, from: {me}",
+      "max_chars": 24,
+      "case": "lower",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 260,
+        "min_font_scale": 0.7
+      }
+    }
+  ],
+  "triggers": {
+    "moment_types": [
+      "first_i_love_you",
+      "anniversary",
+      "long_sweet_message"
+    ],
+    "moods": [
+      "romantic",
+      "tender"
+    ]
+  },
+  "size": {
+    "w": 300,
+    "h": 220
+  },
+  "rotation_range": [
+    -4,
+    4
+  ],
+  "example_fills": [
+    {
+      "note_line_1": "MY LOVE ♥",
+      "note_line_2": "OCT 14, 2025",
+      "address": "to: rio, from: sam"
+    }
+  ],
+  "expands": {
+    "on_tap": "open_letter",
+    "content_role": "long_quote",
+    "source": "moment.quotes (longest, up to 280 chars)"
+  },
+  "regen_prompt": "Die-cut sticker of a white paper envelope seen from the back with soft fold lines and a blank pale yellow note card tucked into one corner, transparent background, no text",
+  "license": "original"
+}

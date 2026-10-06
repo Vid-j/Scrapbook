@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="320" viewBox="0 0 220 320" data-sticker-id="counter_card_01">
+<style>@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;family=Special+Elite&amp;family=Alfa+Slab+One&amp;display=swap');</style>
+<defs>
+<filter id="counter_card_01-shadow" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#3c2814" flood-opacity="0.28"/></filter>
+
+</defs>
+<g filter="url(#counter_card_01-shadow)">
+<rect x="8" y="12" width="204" height="296" fill="#fbf8f2"/>
+</g>
+<line x1="18" y1="78" x2="202" y2="78" stroke="#5a7896" stroke-opacity="0.25" stroke-width="1"/><line x1="18" y1="112" x2="202" y2="112" stroke="#5a7896" stroke-opacity="0.25" stroke-width="1"/><line x1="18" y1="146" x2="202" y2="146" stroke="#5a7896" stroke-opacity="0.25" stroke-width="1"/><line x1="18" y1="180" x2="202" y2="180" stroke="#5a7896" stroke-opacity="0.25" stroke-width="1"/><line x1="18" y1="214" x2="202" y2="214" stroke="#5a7896" stroke-opacity="0.25" stroke-width="1"/><line x1="18" y1="248" x2="202" y2="248" stroke="#5a7896" stroke-opacity="0.25" stroke-width="1"/><line x1="18" y1="282" x2="202" y2="282" stroke="#5a7896" stroke-opacity="0.25" stroke-width="1"/>
+<rect x="72" y="2" width="76" height="22" fill="#d6c4a0" fill-opacity="0.8" transform="rotate(-3 110 13)"/>
+<text id="slot-header" data-slot="header" x="110" y="54" text-anchor="middle" font-family="'Special Elite', 'Courier New', monospace" font-size="11" fill="#5a4636" letter-spacing="1.2">SINCE YOUR FIRST TEXT</text>
+<text id="slot-years" data-slot="years" x="110" y="100" text-anchor="middle" font-family="Caveat, 'Segoe Script', cursive" font-size="30" fill="#2a1f1a" >1 YEAR</text>
+<text id="slot-months" data-slot="months" x="110" y="134" text-anchor="middle" font-family="Caveat, 'Segoe Script', cursive" font-size="30" fill="#2a1f1a" >19 MONTHS</text>
+<text id="slot-days" data-slot="days" x="110" y="168" text-anchor="middle" font-family="Caveat, 'Segoe Script', cursive" font-size="30" fill="#2a1f1a" >582 DAYS</text>
+<text id="slot-hours" data-slot="hours" x="110" y="202" text-anchor="middle" font-family="Caveat, 'Segoe Script', cursive" font-size="30" fill="#2a1f1a" >13,968 HOURS</text>
+<text id="slot-minutes" data-slot="minutes" x="110" y="236" text-anchor="middle" font-family="Caveat, 'Segoe Script', cursive" font-size="30" fill="#2a1f1a" >838,080 MINUTES</text>
+<text id="slot-first_line" data-slot="first_line" data-max-chars="28" x="110" y="282" text-anchor="middle" font-family="'Special Elite', 'Courier New', monospace" font-size="12" fill="#5a4636" >&quot;hi, is this sam?&quot;</text>
+</svg>

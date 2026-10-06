@@ -1,0 +1,93 @@
+{
+  "id": "typewriter_slip_01",
+  "category": "typewriter_slip",
+  "asset": "svg/typewriter_slip_01.svg",
+  "asset_type": "svg_template",
+  "description": "Small white paper slip with a faint red margin line along the top, two lines of typewritten quote text, and a small right-aligned attribution with the sender and time.",
+  "style": {
+    "era": "typewritten notes",
+    "palette": [
+      "#fbf8f2",
+      "#2a1f1a",
+      "#8e1f1f"
+    ],
+    "texture": "thin typing paper",
+    "fonts": [
+      "Special Elite"
+    ]
+  },
+  "slots": [
+    {
+      "name": "line_1",
+      "role": "quote_wrapped_1",
+      "source": "moment.quotes[*]",
+      "max_chars": 26,
+      "verbatim": true,
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 220,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "line_2",
+      "role": "quote_wrapped_2",
+      "source": "moment.quotes[*]",
+      "max_chars": 26,
+      "verbatim": true,
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 220,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "attribution",
+      "role": "sender_and_time",
+      "source": "message.sender + message.sent_at",
+      "format": "{name}, h:mm a",
+      "max_chars": 20,
+      "case": "lower",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 220,
+        "min_font_scale": 0.7
+      }
+    }
+  ],
+  "triggers": {
+    "moment_types": [
+      "any"
+    ],
+    "quote_length_min": 21,
+    "quote_length_max": 52,
+    "moods": [
+      "any"
+    ]
+  },
+  "size": {
+    "w": 260,
+    "h": 110
+  },
+  "rotation_range": [
+    -4,
+    4
+  ],
+  "example_fills": [
+    {
+      "line_1": "\"the tiny umbrella fits",
+      "line_2": "one (1) person\"",
+      "attribution": "rio, 2:16 pm"
+    }
+  ],
+  "wrap": {
+    "slots": [
+      "line_1",
+      "line_2"
+    ],
+    "total_max_chars": 52,
+    "quote_marks": true
+  },
+  "regen_prompt": "Die-cut sticker of a small blank white typing paper slip with a faint red line near the top edge, slightly curled corner, transparent background, no text",
+  "license": "original"
+}

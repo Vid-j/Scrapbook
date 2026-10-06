@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="380" viewBox="0 0 150 380" data-sticker-id="film_strip_01">
+<style>@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;family=Special+Elite&amp;family=Alfa+Slab+One&amp;display=swap');</style>
+<defs>
+<filter id="film_strip_01-shadow" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#3c2814" flood-opacity="0.28"/></filter>
+
+</defs>
+<g filter="url(#film_strip_01-shadow)"><rect x="0" y="0" width="150" height="380" fill="#1c1714"/></g>
+<rect x="8" y="14" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="14" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="36" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="36" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="58" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="58" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="80" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="80" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="102" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="102" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="124" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="124" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="146" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="146" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="168" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="168" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="190" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="190" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="212" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="212" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="234" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="234" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="256" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="256" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="278" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="278" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="300" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="300" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="322" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="322" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="344" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="344" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="8" y="366" width="12" height="9" rx="2" fill="#e9e4dc"/><rect x="130" y="366" width="12" height="9" rx="2" fill="#e9e4dc"/>
+<clipPath id="film_strip_01-clip-frame_1"><rect x="28" y="22" width="94" height="100"/></clipPath>
+<g id="slot-frame_1" data-slot="frame_1" data-slot-type="image" data-box="28,22,94,100" clip-path="url(#film_strip_01-clip-frame_1)">
+<g data-placeholder="true"><rect x="28" y="22" width="94" height="100" fill="#e3cfa9"/>
+<rect x="39.28" y="32.0" width="47.0" height="50.0" fill="#7d93a0" stroke="#5a3e2c" stroke-width="2.0"/>
+<rect x="28" y="94.0" width="94" height="28.000000000000004" fill="#8f5a3a"/>
+<circle cx="97.56" cy="88.0" r="6.6" fill="#f4efe6" stroke="#5a3e2c" stroke-width="1.5"/></g>
+</g><clipPath id="film_strip_01-clip-frame_2"><rect x="28" y="140" width="94" height="100"/></clipPath>
+<g id="slot-frame_2" data-slot="frame_2" data-slot-type="image" data-box="28,140,94,100" clip-path="url(#film_strip_01-clip-frame_2)">
+<g data-placeholder="true"><rect x="28" y="140" width="94" height="100" fill="#e3cfa9"/>
+<rect x="39.28" y="150.0" width="47.0" height="50.0" fill="#a3876a" stroke="#5a3e2c" stroke-width="2.0"/>
+<rect x="28" y="212.0" width="94" height="28.000000000000004" fill="#8f5a3a"/>
+<circle cx="97.56" cy="206.0" r="6.6" fill="#f4efe6" stroke="#5a3e2c" stroke-width="1.5"/></g>
+</g><clipPath id="film_strip_01-clip-frame_3"><rect x="28" y="258" width="94" height="100"/></clipPath>
+<g id="slot-frame_3" data-slot="frame_3" data-slot-type="image" data-box="28,258,94,100" clip-path="url(#film_strip_01-clip-frame_3)">
+<g data-placeholder="true"><rect x="28" y="258" width="94" height="100" fill="#e3cfa9"/>
+<rect x="39.28" y="268.0" width="47.0" height="50.0" fill="#8a9b78" stroke="#5a3e2c" stroke-width="2.0"/>
+<rect x="28" y="330.0" width="94" height="28.000000000000004" fill="#8f5a3a"/>
+<circle cx="97.56" cy="324.0" r="6.6" fill="#f4efe6" stroke="#5a3e2c" stroke-width="1.5"/></g>
+</g>
+<text id="slot-edge_code" data-slot="edge_code" data-max-chars="20" x="126" y="190.0" text-anchor="middle" font-family="'Special Elite', 'Courier New', monospace" font-size="7" fill="#c9a44a" transform="rotate(90 126 190.0)" letter-spacing="1.5">141025 · 3 FRAMES</text>
+</svg>

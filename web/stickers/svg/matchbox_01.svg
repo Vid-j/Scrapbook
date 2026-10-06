@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="92" viewBox="0 0 240 92" data-sticker-id="matchbox_01">
+<style>@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;family=Special+Elite&amp;family=Alfa+Slab+One&amp;display=swap');</style>
+<defs>
+<filter id="matchbox_01-shadow" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#3c2814" flood-opacity="0.28"/></filter>
+
+</defs>
+<g filter="url(#matchbox_01-shadow)"><rect x="4" y="4" width="232" height="84" fill="#fbf8f2"/></g>
+<rect x="4" y="72" width="232" height="16" fill="#5e3a2e"/>
+<g fill="#3e241c" fill-opacity="0.5"><circle cx="10" cy="82" r="1.1"/><circle cx="16" cy="78" r="1.1"/><circle cx="22" cy="82" r="1.1"/><circle cx="28" cy="78" r="1.1"/><circle cx="34" cy="82" r="1.1"/><circle cx="40" cy="78" r="1.1"/><circle cx="46" cy="82" r="1.1"/><circle cx="52" cy="78" r="1.1"/><circle cx="58" cy="82" r="1.1"/><circle cx="64" cy="78" r="1.1"/><circle cx="70" cy="82" r="1.1"/><circle cx="76" cy="78" r="1.1"/><circle cx="82" cy="82" r="1.1"/><circle cx="88" cy="78" r="1.1"/><circle cx="94" cy="82" r="1.1"/><circle cx="100" cy="78" r="1.1"/><circle cx="106" cy="82" r="1.1"/><circle cx="112" cy="78" r="1.1"/><circle cx="118" cy="82" r="1.1"/><circle cx="124" cy="78" r="1.1"/><circle cx="130" cy="82" r="1.1"/><circle cx="136" cy="78" r="1.1"/><circle cx="142" cy="82" r="1.1"/><circle cx="148" cy="78" r="1.1"/><circle cx="154" cy="82" r="1.1"/><circle cx="160" cy="78" r="1.1"/><circle cx="166" cy="82" r="1.1"/><circle cx="172" cy="78" r="1.1"/><circle cx="178" cy="82" r="1.1"/><circle cx="184" cy="78" r="1.1"/><circle cx="190" cy="82" r="1.1"/><circle cx="196" cy="78" r="1.1"/><circle cx="202" cy="82" r="1.1"/><circle cx="208" cy="78" r="1.1"/><circle cx="214" cy="82" r="1.1"/><circle cx="220" cy="78" r="1.1"/><circle cx="226" cy="82" r="1.1"/></g>
+<text id="slot-line_1" data-slot="line_1" data-max-chars="22" x="120.0" y="36" text-anchor="middle" font-family="Caveat, 'Segoe Script', cursive" font-size="26" fill="#2a1f1a" >a match made on</text>
+<text id="slot-line_2" data-slot="line_2" data-max-chars="22" x="120.0" y="62" text-anchor="middle" font-family="Caveat, 'Segoe Script', cursive" font-size="26" fill="#2a1f1a" >a rainy tuesday</text>
+</svg>

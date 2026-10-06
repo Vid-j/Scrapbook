@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" data-sticker-id="plate_inside_joke_01">
+<style>@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;family=Special+Elite&amp;family=Alfa+Slab+One&amp;display=swap');</style>
+<defs>
+<filter id="plate_inside_joke_01-shadow" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#3c2814" flood-opacity="0.28"/></filter>
+
+</defs>
+<g filter="url(#plate_inside_joke_01-shadow)"><rect x="4" y="4" width="292" height="142" rx="12" fill="#efe6d6"/></g>
+<rect x="12" y="12" width="276" height="126" rx="8" fill="none" stroke="#8e1f1f" stroke-width="3.5"/>
+<circle cx="62" cy="24" r="5" fill="#a99a85"/><circle cx="238" cy="24" r="5" fill="#a99a85"/>
+<text id="slot-corner_left" data-slot="corner_left" x="26" y="32" text-anchor="start" font-family="'Alfa Slab One', Rockwell, serif" font-size="13" fill="#8e1f1f" >20</text>
+<text id="slot-corner_right" data-slot="corner_right" x="274" y="32" text-anchor="end" font-family="'Alfa Slab One', Rockwell, serif" font-size="13" fill="#8e1f1f" >25</text>
+<text id="slot-top" data-slot="top" data-max-chars="16" x="150" y="50" text-anchor="middle" font-family="'Special Elite', 'Courier New', monospace" font-size="11" fill="#4a3a2c" letter-spacing="2.5">SINCE OCT 14</text>
+<text x="151" y="91" text-anchor="middle" font-family="'Alfa Slab One', Rockwell, serif" font-size="30" fill="#ffffff" fill-opacity="0.7" aria-hidden="true">TINY UMBRELLA</text>
+<text id="slot-main" data-slot="main" data-max-chars="14" x="150" y="90" text-anchor="middle" font-family="'Alfa Slab One', Rockwell, serif" font-size="30" fill="#8e1f1f" >TINY UMBRELLA</text>
+<text id="slot-bottom" data-slot="bottom" data-max-chars="20" x="150" y="122" text-anchor="middle" font-family="'Special Elite', 'Courier New', monospace" font-size="11" fill="#4a3a2c" letter-spacing="2.5">INSIDE JOKE No. 1</text>
+</svg>

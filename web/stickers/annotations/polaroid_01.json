@@ -1,0 +1,76 @@
+{
+  "id": "polaroid_01",
+  "category": "polaroid",
+  "asset": "svg/polaroid_01.svg",
+  "asset_type": "svg_template",
+  "description": "Instant photo print with a white frame, a square image window, and a wider bottom border holding a handwritten caption.",
+  "style": {
+    "era": "instant film",
+    "palette": [
+      "#fdfcf9",
+      "#2a1f1a"
+    ],
+    "texture": "matte instant print border",
+    "fonts": [
+      "Caveat"
+    ]
+  },
+  "slots": [
+    {
+      "name": "photo",
+      "type": "image",
+      "role": "photo_or_illustration",
+      "source": "message.attachment(photo) | reimagine.illustration",
+      "aspect": "1:1",
+      "box": {
+        "x": 20,
+        "y": 20,
+        "w": 200,
+        "h": 200
+      }
+    },
+    {
+      "name": "caption",
+      "role": "caption",
+      "source": "moment.title | place entity",
+      "max_chars": 22,
+      "case": "lower",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 200,
+        "min_font_scale": 0.7
+      }
+    }
+  ],
+  "triggers": {
+    "moment_types": [
+      "photo_shared",
+      "date_outing",
+      "trip"
+    ],
+    "modes": [
+      "recreate",
+      "reimagine"
+    ],
+    "moods": [
+      "any"
+    ]
+  },
+  "size": {
+    "w": 240,
+    "h": 290
+  },
+  "rotation_range": [
+    -8,
+    8
+  ],
+  "example_fills": [
+    {
+      "photo": "<generated: café window in the rain, two lattes>",
+      "caption": "café lumen, imagined"
+    }
+  ],
+  "provenance_rule": "If the photo slot holds a generated illustration, the caption must end with 'imagined' and the element is tagged imagined",
+  "regen_prompt": "Die-cut sticker of a blank instant photo print with a white frame and an empty square window, soft shadow, transparent background, no text",
+  "license": "original"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "bg_plaid_red_01",
+  "category": "background_torn_paper",
+  "asset": "svg/bg_plaid_red_01.svg",
+  "asset_type": "svg_background",
+  "description": "Hand-torn scrap of deep red and forest green plaid flannel paper with thin cream pinstripes.",
+  "style": {
+    "era": "collage scrap",
+    "palette": [
+      "#6e2224",
+      "#1e3223",
+      "#f0dcbe"
+    ],
+    "texture": "flannel plaid print",
+    "fonts": []
+  },
+  "slots": [],
+  "triggers": {
+    "moods": [
+      "cozy",
+      "winter",
+      "nostalgic"
+    ],
+    "role": "page_background_layer",
+    "chapter_palette_match": true
+  },
+  "size": {
+    "w": 300,
+    "h": 340
+  },
+  "rotation_range": [
+    -6,
+    6
+  ],
+  "layer": "background",
+  "scale_range": [
+    0.8,
+    1.8
+  ],
+  "regen_prompt": "Torn scrap of red and green plaid paper with rough hand-torn edges on all sides, flat lay, transparent background, no text",
+  "license": "original"
+}

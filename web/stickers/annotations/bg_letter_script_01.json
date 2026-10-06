@@ -1,0 +1,41 @@
+{
+  "id": "bg_letter_script_01",
+  "category": "background_torn_paper",
+  "asset": "svg/bg_letter_script_01.svg",
+  "asset_type": "svg_background",
+  "description": "Hand-torn scrap of an aged cream letter covered in illegible looping brown handwriting.",
+  "style": {
+    "era": "collage scrap",
+    "palette": [
+      "#e8d7b6",
+      "#4a3626"
+    ],
+    "texture": "aged letter paper, ink script",
+    "fonts": []
+  },
+  "slots": [],
+  "triggers": {
+    "moods": [
+      "nostalgic",
+      "longing",
+      "tender"
+    ],
+    "role": "page_background_layer",
+    "chapter_palette_match": true
+  },
+  "size": {
+    "w": 300,
+    "h": 340
+  },
+  "rotation_range": [
+    -6,
+    6
+  ],
+  "layer": "background",
+  "scale_range": [
+    0.8,
+    1.8
+  ],
+  "regen_prompt": "Torn scrap of aged handwritten letter paper with rough hand-torn edges on all sides, flat lay, transparent background, no text",
+  "license": "original"
+}

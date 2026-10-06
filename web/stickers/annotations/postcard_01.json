@@ -1,0 +1,123 @@
+{
+  "id": "postcard_01",
+  "category": "postcard",
+  "asset": "svg/postcard_01.svg",
+  "asset_type": "svg_template",
+  "description": "Back of a vintage postcard on aged cream card: red typewriter POST CARD header, a dashed stamp box at the upper right, a vertical divider, address lines on the right, and handwritten message lines on the left.",
+  "style": {
+    "era": "early 20th century postcards",
+    "palette": [
+      "#f7efdf",
+      "#8e1f1f",
+      "#b9a487"
+    ],
+    "texture": "aged card stock",
+    "fonts": [
+      "Special Elite",
+      "Caveat"
+    ]
+  },
+  "slots": [
+    {
+      "name": "header",
+      "role": "label",
+      "default": "POST CARD",
+      "fixed": true,
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 280,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "message_1",
+      "role": "caption_part_1",
+      "max_chars": 16,
+      "case": "lower",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 280,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "message_2",
+      "role": "caption_part_2",
+      "max_chars": 16,
+      "case": "lower",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 280,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "place",
+      "role": "place_entity",
+      "source": "moment.entities.place",
+      "max_chars": 16,
+      "case": "lower",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 280,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "date",
+      "role": "date_short",
+      "source": "moment.date",
+      "format": "mmm d",
+      "max_chars": 16,
+      "case": "lower",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 280,
+        "min_font_scale": 0.7
+      }
+    }
+  ],
+  "triggers": {
+    "moment_types": [
+      "trip",
+      "long_distance",
+      "date_outing"
+    ],
+    "entities_required": [
+      "place"
+    ],
+    "moods": [
+      "longing",
+      "nostalgic"
+    ]
+  },
+  "size": {
+    "w": 320,
+    "h": 210
+  },
+  "rotation_range": [
+    -5,
+    5
+  ],
+  "example_fills": [
+    {
+      "header": "POST CARD",
+      "message_1": "wish you were",
+      "message_2": "under here",
+      "place": "café lumen",
+      "date": "oct 14"
+    }
+  ],
+  "fill_rule": "message lines are an LLM caption riffing on a quote or motif; tag imagined. place and date are from texts.",
+  "accepts_stamp": {
+    "box": {
+      "x": 250,
+      "y": 20,
+      "w": 48,
+      "h": 56
+    },
+    "sticker_category": "postage_stamp"
+  },
+  "regen_prompt": "Die-cut sticker of the blank back of a vintage postcard on aged cream card with a dashed stamp box, a vertical divider and address lines, transparent background, no text",
+  "license": "original"
+}

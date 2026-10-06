@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="104" viewBox="0 0 320 104" data-sticker-id="title_card_01">
+<defs>
+<filter id="title_card_01-shadow" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#3c2814" flood-opacity="0.28"/></filter>
+</defs>
+<g filter="url(#title_card_01-shadow)"><path d="M6 9 L96 6 L200 9 L314 5 L312 36 L315 66 L312 98 L210 95 L110 99 L8 96 L5 66 L8 38 Z" fill="#f4ecdc"/></g>
+<text id="slot-kicker" data-slot="kicker" data-max-chars="12" x="22" y="32" text-anchor="start" font-family="'Special Elite', 'Courier New', monospace" font-size="12" fill="#8e1f1f" letter-spacing="3">CHAPTER 03</text>
+<text id="slot-title" data-slot="title" data-max-chars="22" x="20" y="78" text-anchor="start" font-family="Caveat, 'Segoe Script', cursive" font-size="46" font-weight="700" fill="#2a1f1a">The Rain Check</text>
+</svg>

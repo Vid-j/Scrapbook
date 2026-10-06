@@ -1,0 +1,114 @@
+{
+  "id": "ticket_stub_01",
+  "category": "ticket_stub",
+  "asset": "svg/ticket_stub_01.svg",
+  "asset_type": "svg_template",
+  "description": "Tall vintage admission ticket on tan card with semicircle notches cut into both sides, a thin black inner border, a large serial number in a top band, and typewriter lines for place and details.",
+  "style": {
+    "era": "old cinema and fairground tickets",
+    "palette": [
+      "#e4d3ae",
+      "#2a1f1a",
+      "#8e1f1f"
+    ],
+    "texture": "tan card stock, notched edges",
+    "fonts": [
+      "Special Elite"
+    ]
+  },
+  "slots": [
+    {
+      "name": "number",
+      "role": "date_serial",
+      "source": "moment.date",
+      "format": "No DDMMYY",
+      "max_chars": 9,
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 140,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "admit",
+      "role": "label",
+      "default": "ADMIT TWO",
+      "max_chars": 14,
+      "case": "upper",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 140,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "place",
+      "role": "place_entity",
+      "source": "moment.entities.place",
+      "max_chars": 12,
+      "case": "upper",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 140,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "detail_1",
+      "role": "item_entity",
+      "source": "moment.entities.food|object",
+      "max_chars": 20,
+      "case": "upper",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 140,
+        "min_font_scale": 0.7
+      }
+    },
+    {
+      "name": "detail_2",
+      "role": "weekday_context",
+      "source": "moment.date + moment.entities.weather",
+      "max_chars": 20,
+      "case": "upper",
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 140,
+        "min_font_scale": 0.7
+      }
+    }
+  ],
+  "triggers": {
+    "moment_types": [
+      "plan_made",
+      "date_outing",
+      "trip"
+    ],
+    "entities_required": [
+      "place"
+    ],
+    "moods": [
+      "playful",
+      "excited"
+    ]
+  },
+  "size": {
+    "w": 180,
+    "h": 224
+  },
+  "rotation_range": [
+    -8,
+    8
+  ],
+  "example_fills": [
+    {
+      "number": "No 141025",
+      "admit": "ADMIT TWO",
+      "place": "CAFÉ LUMEN",
+      "detail_1": "2 LAVENDER LATTES",
+      "detail_2": "TUES · RAIN"
+    }
+  ],
+  "regen_prompt": "Die-cut sticker of a tall blank vintage admission ticket on tan card stock with semicircle notches on both sides and a thin black inner border, slightly worn, transparent background, no text",
+  "license": "original"
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="110" viewBox="0 0 260 110" data-sticker-id="typewriter_slip_01">
+<style>@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;family=Special+Elite&amp;family=Alfa+Slab+One&amp;display=swap');</style>
+<defs>
+<filter id="typewriter_slip_01-shadow" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#3c2814" flood-opacity="0.28"/></filter>
+
+</defs>
+<g filter="url(#typewriter_slip_01-shadow)"><rect x="5" y="5" width="250" height="100" fill="#fbf8f2"/></g>
+<line x1="5" y1="22" x2="255" y2="22" stroke="#8e1f1f" stroke-opacity="0.35" stroke-width="1"/>
+<text id="slot-line_1" data-slot="line_1" data-max-chars="26" x="20" y="50" text-anchor="start" font-family="'Special Elite', 'Courier New', monospace" font-size="16" fill="#2a1f1a" >&quot;the tiny umbrella fits</text>
+<text id="slot-line_2" data-slot="line_2" data-max-chars="26" x="20" y="72" text-anchor="start" font-family="'Special Elite', 'Courier New', monospace" font-size="16" fill="#2a1f1a" >one (1) person&quot;</text>
+<text id="slot-attribution" data-slot="attribution" data-max-chars="20" x="242" y="96" text-anchor="end" font-family="'Special Elite', 'Courier New', monospace" font-size="11" fill="#5a4636" >rio, 2:16 pm</text>
+</svg>

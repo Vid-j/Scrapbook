@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="260" viewBox="0 0 200 260" data-sticker-id="pressed_poppies_01">
+<style>@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;family=Special+Elite&amp;family=Alfa+Slab+One&amp;display=swap');</style>
+<defs>
+<filter id="pressed_poppies_01-shadow" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#3c2814" flood-opacity="0.28"/></filter>
+
+</defs>
+<g opacity="0.95">
+<g stroke="#5f6e43" stroke-width="2.5" fill="none" stroke-linecap="round">
+<path d="M70 90 q12 80 36 160"/><path d="M140 80 q-8 90 6 170"/><path d="M98 190 q-22 -10 -32 -32"/><path d="M142 170 q16 -6 26 -24"/></g>
+<g fill="#7d1f24">
+<ellipse cx="58" cy="72" rx="32" ry="24" transform="rotate(-20 58 72)"/><ellipse cx="84" cy="76" rx="28" ry="21" transform="rotate(25 84 76)"/>
+<ellipse cx="130" cy="62" rx="32" ry="24" transform="rotate(15 130 62)"/><ellipse cx="156" cy="70" rx="26" ry="21" transform="rotate(-30 156 70)"/></g>
+<g fill="#5e1418" opacity="0.6"><ellipse cx="66" cy="80" rx="18" ry="10"/><ellipse cx="142" cy="70" rx="18" ry="10"/></g>
+<circle cx="72" cy="84" r="6" fill="#2a0a0c"/><circle cx="142" cy="72" r="6" fill="#2a0a0c"/>
+<rect x="72" y="200" width="88" height="16" fill="#d6c4a0" fill-opacity="0.75" transform="rotate(-8 116 208)"/></g>
+</svg>

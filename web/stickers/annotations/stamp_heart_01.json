@@ -1,0 +1,58 @@
+{
+  "id": "stamp_heart_01",
+  "category": "postage_stamp",
+  "asset": "svg/stamp_heart_01.svg",
+  "asset_type": "svg_template",
+  "description": "Vintage postage stamp with perforated edges on aged cream paper, a thin deep red inner frame, a large red heart in the center, and a split year printed below it.",
+  "style": {
+    "era": "mid-century postage",
+    "palette": [
+      "#e9d3b0",
+      "#8e1f1f"
+    ],
+    "texture": "aged paper, perforated edge",
+    "fonts": [
+      "Alfa Slab One"
+    ]
+  },
+  "slots": [
+    {
+      "name": "year",
+      "role": "year_split",
+      "source": "moment.date",
+      "format": "YY YY",
+      "max_chars": 5,
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 76,
+        "min_font_scale": 0.7
+      }
+    }
+  ],
+  "triggers": {
+    "moment_types": [
+      "anniversary",
+      "first_i_love_you",
+      "chapter_start"
+    ],
+    "moods": [
+      "romantic",
+      "nostalgic"
+    ]
+  },
+  "size": {
+    "w": 116,
+    "h": 136
+  },
+  "rotation_range": [
+    -10,
+    10
+  ],
+  "example_fills": [
+    {
+      "year": "20 25"
+    }
+  ],
+  "regen_prompt": "Die-cut sticker of a vintage postage stamp with perforated edges, aged cream paper, thin deep red frame, a red heart illustration in the center, blank space at the bottom, transparent background, no text",
+  "license": "original"
+}

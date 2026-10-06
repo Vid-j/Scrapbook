@@ -1,0 +1,64 @@
+{
+  "id": "label_tape_01",
+  "category": "label_maker_tape",
+  "asset": "svg/label_tape_01.svg",
+  "asset_type": "svg_template",
+  "description": "Strip of glossy black embossing label tape with raised off-white uppercase letters, widely spaced, like a handheld label maker.",
+  "style": {
+    "era": "1970s label maker",
+    "palette": [
+      "#1c1714",
+      "#f5efe4"
+    ],
+    "texture": "glossy embossed plastic tape",
+    "fonts": [
+      "Special Elite"
+    ]
+  },
+  "slots": [
+    {
+      "name": "text",
+      "role": "short_quote",
+      "source": "moment.quotes[0]",
+      "max_chars": 20,
+      "case": "upper",
+      "verbatim": true,
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 250,
+        "min_font_scale": 0.7
+      }
+    }
+  ],
+  "triggers": {
+    "moment_types": [
+      "any"
+    ],
+    "quote_length_max": 20,
+    "moods": [
+      "playful",
+      "sweet",
+      "funny"
+    ]
+  },
+  "size": {
+    "w": 290,
+    "h": 50
+  },
+  "rotation_range": [
+    -4,
+    4
+  ],
+  "example_fills": [
+    {
+      "text": "YOU REMEMBERED!!"
+    }
+  ],
+  "regen_prompt": "Die-cut sticker of a blank strip of glossy black label-maker embossing tape, slight curl, transparent background, no text",
+  "license": "original",
+  "auto_width": {
+    "enabled": true,
+    "padding_x": 22,
+    "char_width_em": 0.82
+  }
+}

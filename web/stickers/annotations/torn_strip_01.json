@@ -1,0 +1,62 @@
+{
+  "id": "torn_strip_01",
+  "category": "torn_paper_strip",
+  "asset": "svg/torn_strip_01.svg",
+  "asset_type": "svg_template",
+  "description": "Narrow strip of kraft paper torn by hand along both long edges, with a single line of lowercase typewriter text.",
+  "style": {
+    "era": "ransom-note collage",
+    "palette": [
+      "#d9c29a",
+      "#2a1f1a"
+    ],
+    "texture": "kraft paper, rough torn fibers",
+    "fonts": [
+      "Special Elite"
+    ]
+  },
+  "slots": [
+    {
+      "name": "text",
+      "role": "quote",
+      "source": "moment.quotes[*]",
+      "max_chars": 60,
+      "case": "as_written",
+      "verbatim": true,
+      "fit": {
+        "mode": "shrink_to_width",
+        "max_width": 290,
+        "min_font_scale": 0.7
+      }
+    }
+  ],
+  "triggers": {
+    "moment_types": [
+      "any"
+    ],
+    "quote_length_max": 60,
+    "moods": [
+      "any"
+    ]
+  },
+  "size": {
+    "w": 330,
+    "h": 60
+  },
+  "rotation_range": [
+    -5,
+    5
+  ],
+  "example_fills": [
+    {
+      "text": "then we share it badly"
+    }
+  ],
+  "regen_prompt": "Die-cut sticker of a narrow blank strip of kraft paper with hand-torn rough edges on top and bottom, transparent background, no text",
+  "license": "original",
+  "auto_width": {
+    "enabled": true,
+    "padding_x": 24,
+    "char_width_em": 0.6
+  }
+}
